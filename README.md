@@ -172,7 +172,7 @@ model/
 
 Create a `.env.local` file for local development:
 
-```env
+``env
 MONGODB_URL=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 
