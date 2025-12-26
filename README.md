@@ -167,6 +167,7 @@ model/
 
 ---
 
+
 ## ⚙️ Environment Variables
 
 Create a `.env.local` file for local development:
@@ -174,6 +175,101 @@ Create a `.env.local` file for local development:
 ```env
 MONGODB_URL=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+
+
+⚠️ For production (Vercel), add the same variables in:
+Project Settings → Environment Variables
+
+## 🧪 API Testing
+
+APIs tested using Postman
+
+Cookie-based authentication supported
+
+/api/auth/me verifies active session
+
+Task APIs are accessible only after login
+
+## 📦 Installation & Setup
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+http://localhost:3000
+
+📝 Development Logs
+
+The project includes development logs that explain:
+
+Project setup
+
+Authentication flow
+
+Task CRUD implementation
+
+Debugging and challenges faced
+
+These logs are included for evaluation purposes as requested in the assignment.
+
+🎯 Learning Outcomes
+
+Real-world JWT authentication
+
+Secure API design
+
+Middleware-based route protection
+
+MongoDB schema modeling
+
+Deployment on Vercel
+
+Responsive UI/UX development
+
+📜 License
+
+This project is created for educational and assignment purposes.
+
+🙌 Author
+
+Tushar Suthar
+Full Stack Developer (MERN + Next.js)
+
+📬 Submission Note
+
+This project was submitted as part of a Frontend Developer / Intern task, including:
+
+GitHub repository
+
+Live deployment
+
+API documentation
+
+Development logs
+
+Screenshots
+
+
+---
+
+## ✅ What to do next (Checklist)
+
+- [ ] Create `screenshots/` folder
+- [ ] Add screenshots
+- [ ] Replace live URL
+- [ ] Commit & push
+- [ ] Submit confidently 🚀
+
+If you want, I can:
+- Review your final README
+- Compress screenshots
+- Create a submission email
+- Improve README visuals with badges
+
+Just tell me 👍
+
 
 
 ⚠️ For production (Vercel), add the same variables in:
