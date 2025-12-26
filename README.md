@@ -84,36 +84,42 @@ The app is fully responsive and works seamlessly across **desktop, tablet, and m
 ## 📂 Project Structure
 
 app/
-├─ api/
-│ ├─ auth/
-│ │ ├─ register
-│ │ ├─ login
-│ │ ├─ logout
-│ │ └─ me
-│ └─ tasks/
-│ ├─ route.js
-│ └─ [id]/route.js
-├─ dashboard/
-│ └─ page.jsx
-├─ page.jsx
-└─ layout.js
+├── api/
+│   ├── auth/
+│   │   ├── register/
+│   │   │   └── route.js
+│   │   ├── login/
+│   │   │   └── route.js
+│   │   ├── logout/
+│   │   │   └── route.js
+│   │   └── me/
+│   │       └── route.js
+│   └── tasks/
+│       ├── route.js
+│       └── [id]/
+│           └── route.js
+├── dashboard/
+│   └── page.jsx
+├── page.jsx
+└── layout.js
 
 components/
-├─ Navbar.jsx
-├─ TaskCard.jsx
-├─ TaskModal.jsx
-├─ Hero.jsx
-├─ About.jsx
-├─ Features.jsx
-└─ FAQ.jsx
+├── Navbar.jsx
+├── TaskCard.jsx
+├── TaskModal.jsx
+├── Hero.jsx
+├── About.jsx
+├── Features.jsx
+└── FAQ.jsx
 
 lib/
-├─ DBConnect.js
-└─ auth.js
+├── DBConnect.js
+└── auth.js
 
 model/
-├─ User.model.js
-└─ Task.model.js
+├── User.model.js
+└── Task.model.js
+
 
 
 ---
@@ -145,19 +151,19 @@ model/
 > Screenshots are stored inside the `screenshots/` folder.
 
 ### 🏠 Home Page
-![Home Page](./screenshots/home.png)
+![Home Page](./screenshots/Home.jpeg)
 
 ### 🔐 Login Page
-![Login Page](./screenshots/login.png)
+![Login Page](./screenshots/Login.jpeg)
 
 ### 📝 Register Page
-![Register Page](./screenshots/register.png)
+![Register Page](./screenshots/Register.jpeg)
 
 ### 📊 Dashboard Page
-![Dashboard Page](./screenshots/dashboard.png)
+![Dashboard Page](./screenshots/Dashboard.jpeg)
 
 ### 🧩 Task Modal (Create / Edit)
-![Task Modal](./screenshots/task-modal.png)
+![Task Modal](./screenshots/Task-modal.jpeg)
 
 ---
 
